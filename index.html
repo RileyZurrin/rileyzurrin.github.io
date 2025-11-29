@@ -1,209 +1,301 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Riley Zurrin</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Riley Zurrin | Data Engineer & Applied Physicist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Engineer with M.Sc. Physics. Building production systems where standard playbooks fail.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-        <img src="img/Pic_Me.png" alt="Me" style="width: 200px; height: auto;"> 
-		<h1 >Riley Zurrin</h1>
-		<nav>
-			<ul>
-                <li><a href="https://github.com/RileyZurrin"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="mailto:rjzurrin@gmail.com"><i class="fas fa-envelope"></i></a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main>
-		<section id="about">
-			<h2>About Me</h2>
-			<p>     I specialize in building data warehouses and analytics solutions, combining my strong analytical background with practical software development experience. 
-                 My work spans from implementing ETL pipelines and developing web applications to conducting advanced statistical analyses. I'm 
-                 passionate about turning data into actionable insights and building tools that make data more accessible and meaningful.</p>
-		</section>
-
-        <section id="timeline">
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <div class="timeline-content">
-                        <h3>Data Analytics Developer</h3>
-                        <h4>Dakota Analytics</h4>
-                        <p> I primarily create data warehouses for large oil and gas companies using the tech stack of their choice. This includes staging data from various sources, transforming it within the warehouse,
-                            then loading it into data sets used for reporting and analytics. Technologies include Dagster, dbt, duckDB, SQL Server, SSIS, Databricks, and Power BI. The job is very client-facing, including
-                            trips to Calgary and Denver to discuss solutions. I also built out Dakota's first two web applications, one using Django and the other using Vue. 
-                        </p>
-                        <div class="date-with-image">
-                            <span class="date">Apr 2024 - Present</span>
-                            <img src="img/Dakota.png" alt="Dakota Logo" style="width: 80px; height: auto;">
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3>Data Analyst and Researcher</h3>
-                        <h4>BC Children's Hospital</h4>
-                        <p> I conducted constrained-PCA on task-state fMRI data in MATLAB to extract the 
-                            functional brain networks involved in intelligence and lexical decision. I then performed ANOVAs
-                            on the networks to find relationships with behavioural variables like age and income. I used these
-                            results to contribute to academic papers (see <a href=#publications>publications</a>). I also programmed
-                            automation scripts in Python that report the results of the fMRI analyses.
-                        </p>
-                        <img src="img/Brain.png" alt="Brain Images">
-                        <img src="img/HDR.png" alt="Hemodynamic response shape">
-                        <div class="date-with-image">
-                            <span class="date">Sept 2022 - Mar 2024</span>
-                            <img src="img/BCCHR.png" alt="BCCHR Logo">
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3>Teacher/Tutor</h3>
-                        <h4>Forest Hill Tutoring</h4>
-                        <p> Tutored high-school students in mathematics, physics, and statistics. I also taught credit courses in calculus and functions. </p>
-                        <div class="date-with-image">
-                            <span class="date">Sept 2022 - Sept 2023</span>
-                            <img src="img/FHT.png" alt="UofT">
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3>Master of Science - GPA: 3.96</h3>
-                        <h4>Physics - University of Toronto</h4>
-                        <p><b>Awards:</b> 2021 NSERC USRA: placed mass constraints on 21 single-particle extensions to 
-                        the standard model of particle physics.</p>
-                        <p><b>Coursework:</b> machine learning, fluid mechanics, statistical mechanics, and quantum field theory. </p>
-                        <p><b>Teaching:</b> I taught 4 first year lab courses of roughly 30 students each. This included lecturing
-                            on physics principles and using software (Excel/Python) to analyze data.</p>
-                        <div class="subcontent">
-                            <p><img src="img/SuperBIT.png" alt="SuperBIT"> <b>Research:</b> I worked with UofT's balloon astrophysics group assembling
-                                 and integrating a balloon-borne telescope called <a href="https://sites.physics.utoronto.ca/bit">SuperBIT</a>.
-                                  We designed and built the components to NASA's standards at their balloon facility in Texas. SuperBIT
-                                launched from Wanaka, New Zealand in the spring of 2023, and took some <a href="https://www.instagram.com/p/Cr8nlveOgCy/">pretty pictures</a>. The data is now being used to
-                                advance our understanding of dark matter.</p>
-                        </div>
-                        <div class="date-with-image">
-                            <span class="date">Sept 2021 - Sept 2022</span>
-                            <img src="img/UofT.png" alt="UofT">
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3>Bachelor of Science - GPA: 4.00</h3>
-                        <h4>Honours Mathematics and Physics - University of British Columbia</h4>
-                        <p><b>Awards:</b> Science Scholar, Dean of Science Scholarship, 2020 NSERC USRA.</p>
-                        <p><b>Coursework:</b> calculus, linear algebra, mechanics, thermodynamics, circuitry, electronics labs, etc. 
-                        </p>
-                        <p><b>Teaching:</b> Teaching assitant for introduction to general relativity, and lab instructor
-                            for two first year lab courses.
-                        </p>
-                        <div class="subcontent">
-                            <p><b>Research:</b> Brain networks involved in 
-                                fluid intelligence and lexical decisions (see above).</p>
-                        </div>
-                        <p>
-                        </p>
-                        <div class="date-with-image">
-                            <span class="date">Sept 2016 - Apr 2021</span>
-                            <img src="img/UBC.jpg" alt="UBC">
-                        </div>
-                    </div>
-                </li>
-                <!-- add more job experiences here -->
+    <div class="grain"></div>
+    
+    <header>
+        <nav class="nav-container">
+            <div class="nav-logo">RZ</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
             </ul>
+            <ul class="nav-social">
+                <li><a href="https://github.com/RileyZurrin" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/riley-zurrin/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="mailto:rjzurrin@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (full-width) -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <img src="img/Pic_Me.png" alt="Riley Zurrin" class="hero-image">
+            </div>
+            <h1 class="hero-title">Riley Zurrin</h1>
+            <p class="hero-subtitle">Data Engineer <span class="separator">×</span> Applied Physicist</p>
+            <p class="hero-tagline">I build production systems where standard playbooks fail.</p>
+        </div>
+    </section>
+
+    <main>
+        <!-- Value Props -->
+        <section id="about" class="value-props">
+            <div class="value-card">
+                <div class="value-icon"><i class="fas fa-atom"></i></div>
+                <h3>Scientific Rigor</h3>
+                <p>M.Sc. in Physics (UofT) & Honours B.Sc. Math/Physics (UBC) with a <strong>4.0 GPA</strong>. I bring first-principles thinking to data architecture.</p>
+            </div>
+            <div class="value-card featured">
+                <div class="value-icon"><i class="fas fa-rocket"></i></div>
+                <h3>Technical Founder</h3>
+                <p>Built and deployed <a href="https://getsyntropic.com/" target="_blank">Syntropic</a>, a production-grade Data Warehouse UI (React/FastAPI/AWS/Terraform) currently <strong>serving live traffic</strong> for a SaaS client.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon"><i class="fas fa-flask"></i></div>
+                <h3>Research & Output</h3>
+                <p><a href="https://scholar.google.com/citations?hl=en&user=xrNm528AAAAJ" target="_blank">Published author</a> (fMRI statistical modeling) and <a href="https://www.kaggle.com/datasets/rileyzurrin/national-health-and-nutrition-exam-survey-2017-2018" target="_blank">Kaggle Silver Medalist</a>. I thrive in high-ambiguity, high-complexity environments.</p>
+            </div>
         </section>
 
-		<section id="portfolio">
-            <h2>Projects</h2>
-            <ul>
-            <li>
-                <div class="item">
-                    <img src="img/HealthStats.jpg" alt="HealthStats Logo">
-                    <p>A <a href= "https://healthstats.streamlit.app/">web app</a> 
-                    for visualizing health and nutritional data from the CDC.
-                    The app automatically generates graphs and statistics, providing a fun (and perhaps informative!) experience.</p>
+        <!-- Skills -->
+        <section class="skills-section">
+            <h2 class="section-title"><span class="title-accent">//</span> Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <div class="skill-tags">
+                        <span>Python</span><span>SQL</span><span>JavaScript</span><span>HTML/CSS</span>
+                    </div>
                 </div>
-                </li>
-              <li>
-                <div class="item">
-                  <img src="img/CGappLogo.png" alt="CGapp Logo">
-                  <p>A <a href= "https://clebschgordan.com/">web app</a> 
-                    that calculates and displays Clebsch-Gordan Coefficients. 
-                    That is, it converts the angular momenta states of two quantum 
-                    mechanical systems into those of the combined system (or vice versa). 
-                    Alternative methods, like using a CG coefficient table, are outdated and clunky. </p>
+                <div class="skill-category">
+                    <h4>Data & Cloud</h4>
+                    <div class="skill-tags">
+                        <span>AWS</span><span>Azure</span><span>Databricks</span><span>Snowflake</span><span>dbt</span><span>Dagster</span><span>DuckDB</span><span>Terraform</span><span>Docker</span>
+                    </div>
                 </div>
-              </li>
-              <li>
-                <div class="item">
-                  <img src="img/odds-nico-loses.png" alt="odds-nico-loses logo">
-                  <p>I'm into fantasy hockey and one of the guys is outright dominating the league. I wanted to estimate the odds of him
-                    not winning the playoffs, so I perfomed the analysis and presented the entire explanation 
-                    <a href= "https://odds-nico-loses.streamlit.app/">here</a>. </p>
+                <div class="skill-category">
+                    <h4>Frameworks</h4>
+                    <div class="skill-tags">
+                        <span>FastAPI</span><span>React</span><span>Django</span><span>Streamlit</span><span>CI/CD</span>
+                    </div>
                 </div>
-              </li>
-              <li>
-                <div class="item">
-                  <img src="img/Helmet.png" alt="NHLPP Logo">
-                  <p><a href= "https://github.com/RileyZurrin/NHL-Points-Predictor">NHL Points Predictor.</a> 
-                    An ongoing exploration of models that attempt to predict NHL players' point totals given their stats partway through the season.  </p>
-                </div>
-              </li>
-              <li>
-                <div class="item">
-                  <img src="img/MINT.png" alt="UBC MINT Logo">
-                  <p> I worked with UBC's <a href= "https://ubcmint.github.io/">neurotechnology student team</a> 
-                    to design and build an <a href= "https://github.com/UBCMint/MINT_NTX2020_OpenChallenge" >EEG acquisition system</a> 
-                    intended for home automation. I focused on the signal processing of the EEG data, collaborating with the 
-                    ML team to classify brain activity. </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-          
-        <section id="publications">
-            <h2>Publications</h2>
+            </div>
+        </section>
 
-            <article class="publication">
-                <h3><a href="https://doi.org/10.1016/j.intell.2024.101807">Functional brain networks involved in the Raven's standard progressive matrices task
-                    and their relation to theories of fluid intelligence</a></h3>
-                <p> Riley Zurrin, Samantha Wong, Meighen Roes, Chantal Percival, Mavis Kusi, Todd Woodward, Vina Goghari</p>
-                <div class="date">Intelligence, 2024</div>
+        <!-- Experience -->
+        <section id="experience" class="experience-section">
+            <h2 class="section-title"><span class="title-accent">//</span> Experience</h2>
+            
+            <div class="experience-timeline">
+                <article class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-company">
+                            <img src="img/Dakota.png" alt="Dakota Analytics" class="company-logo">
+                            <div>
+                                <h3>Data Engineer</h3>
+                                <span class="company-name">Dakota Analytics</span>
+                            </div>
+                        </div>
+                        <span class="exp-date">Apr 2024 — Present</span>
+                    </div>
+                    <ul class="exp-highlights">
+                        <li>Engineered a greenfield data platform using Dagster, DuckDB, and dbt to ETL <strong>billions of records</strong></li>
+                        <li>Led a technical team of 3 to design and implement custom data solutions for enterprise clients</li>
+                        <li>Designed and built the company's first client-facing web application using Django on Azure</li>
+                        <li>Architected end-to-end data warehouses using Databricks, Fabric, and SQL Server</li>
+                    </ul>
                 </article>
 
-            <article class="publication">
-            <h3><a href="https://www.sciencedirect.com/science/article/pii/S0165032722008965?casa_token=pnw4mBsHuVgAAAAA:A-pUHBJp7OTckxk32t5VDSPaEYOFIAuGM5n064bvS1J8kYjfmBKy_68rAO_FSB9l_Pd_22sTMueJ">Altered Activity in Functional Brain Networks Involved in Lexical Decision Making in Bipolar Disorder: An fMRI Case-control Study</a></h3>
-            <p>Mavis Kusi, Samantha Wong, Chantal Percival, Riley Zurrin, Meighen Roes, Todd Woodward, Vina Goghari </p>
-            <div class="date">Journal of Affective Disorders, 2022</div>
-            </article>
+                <article class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-company">
+                            <img src="img/BCCHR.png" alt="BC Children's Hospital" class="company-logo">
+                            <div>
+                                <h3>Data Analyst / Researcher</h3>
+                                <span class="company-name">BC Children's Hospital</span>
+                            </div>
+                        </div>
+                        <span class="exp-date">Sep 2022 — Mar 2024</span>
+                    </div>
+                    <ul class="exp-highlights">
+                        <li>Applied advanced statistical modeling and data manipulation to fMRI neuroimaging data</li>
+                        <li>Published <a href="https://scholar.google.com/citations?hl=en&user=xrNm528AAAAJ" target="_blank">two research papers</a> with <strong>40+ citations</strong></li>
+                    </ul>
+                    <div class="exp-images">
+                        <img src="img/Brain.png" alt="Brain network visualization">
+                        <img src="img/HDR.png" alt="Hemodynamic response analysis">
+                    </div>
+                </article>
 
-            <p><a href="https://scholar.google.com/citations?user=xrNm528AAAAJ&hl=en">Google Scholar</a></p>
-        
-            <!-- add more publications here as needed -->
-        
+                <article class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-company">
+                            <img src="img/UofT.png" alt="University of Toronto" class="company-logo">
+                            <div>
+                                <h3>Data Analyst</h3>
+                                <span class="company-name">Balloon Astrophysics Group — UofT</span>
+                            </div>
+                        </div>
+                        <span class="exp-date">May 2022 — Sep 2022</span>
+                    </div>
+                    <ul class="exp-highlights">
+                        <li>Configured telemetry data and analytics from <a href="https://en.wikipedia.org/wiki/Super-pressure_Balloon-borne_Imaging_Telescope" target="_blank">SuperBIT</a>, a NASA balloon-borne telescope</li>
+                        <li>Designed and built components to NASA standards at their facility in Texas</li>
+                    </ul>
+                </article>
+            </div>
         </section>
-      
-        <section id="misc unsorted">
-            <h2>Misc. Unsorted</h2>
-            <ul>
-                <li><p><a href="https://rjzurrin.wixsite.com/website-4">Compassion Services</a>, a non-profit organization I co-founded a few years ago that laboured in the community in exchange for charitable donations. The money we raised provided $20,000 in scholarships to high-school students and helped fund the construction of a well in Nepal.</p></li>
-                <li><p>A <a href="https://youtu.be/5xamJAdlMwE">video</a> of my biking trip to Niagara Falls.</p></li>
-                <li><p>Some of the books I've read and my reviews of them on <a href="https://www.goodreads.com/user/show/43511113-riley-zurrin">Goodreads</a>.</p></li>
-                <li><p>My family and I <a href="https://youtu.be/C8Dyh2Sic1U">kiteboarding</a> in Mexico.</p></li>
-            </ul>
+
+        <!-- Education -->
+        <section class="education-section">
+            <h2 class="section-title"><span class="title-accent">//</span> Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <img src="img/UofT.png" alt="University of Toronto" class="edu-logo">
+                    <div class="edu-content">
+                        <h3>M.Sc. Physics</h3>
+                        <span class="edu-school">University of Toronto</span>
+                        <span class="edu-gpa">GPA: 3.96</span>
+                        <span class="edu-date">2021 — 2022</span>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <img src="img/UBC.jpg" alt="University of British Columbia" class="edu-logo">
+                    <div class="edu-content">
+                        <h3>Honours B.Sc. Mathematics & Physics</h3>
+                        <span class="edu-school">University of British Columbia</span>
+                        <span class="edu-gpa">GPA: 4.00</span>
+                        <span class="edu-date">2016 — 2021</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title"><span class="title-accent">//</span> Projects</h2>
+            
+            <div class="projects-grid">
+                <article class="project-card featured-project">
+                    <div class="project-header">
+                        <img src="img/phi.svg" alt="Syntropic" class="project-logo">
+                        <span class="project-tag live">🔴 LIVE</span>
+                        <h3><a href="https://getsyntropic.com/" target="_blank">Syntropic</a></h3>
+                    </div>
+                    <p>Production-grade Data Warehouse UI enabling business users to interact directly with data lakes. Serving live production traffic for a major SaaS platform.</p>
+                    <div class="project-tech">
+                        <span>FastAPI</span><span>React</span><span>AWS</span><span>Terraform</span><span>Docker</span><span>Databricks</span><span>Snowflake</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>3-stage deployment with automated CI/CD</li>
+                        <li>Enterprise RBAC, approvals, and audit trails</li>
+                        <li>Monitored webhooks and data quality rules</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">🥈 KAGGLE SILVER</span>
+                        <h3><a href="https://healthstats.streamlit.app" target="_blank">HealthStats</a></h3>
+                    </div>
+                    <p>Web app for visualizing CDC health data. Full data pipeline from web scraping to interactive dashboards.</p>
+                    <div class="project-tech">
+                        <span>Streamlit</span><span>Selenium</span><span>BeautifulSoup</span>
+                    </div>
+                    <div class="project-meta">
+                        <span><i class="fas fa-download"></i> 1,400+ downloads</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://clebschgordan.com/" target="_blank">Clebsch-Gordan Calculator</a></h3>
+                    </div>
+                    <p>Niche computational tool automating quantum mechanics algebra for physics researchers.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://github.com/RileyZurrin/NHL-Points-Predictor" target="_blank">NHL Points Predictor</a></h3>
+                    </div>
+                    <p>Predictive modeling for NHL player performance using mid-season statistics.</p>
+                    <div class="project-tech">
+                        <span>Python</span><span>ML</span><span>Statistics</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://github.com/UBCMint/MINT_NTX2020_OpenChallenge" target="_blank">EEG Brain-Computer Interface</a></h3>
+                    </div>
+                    <p>Signal processing for EEG acquisition system. Collaborated with UBC MINT on home automation via brain activity classification.</p>
+                    <div class="project-tech">
+                        <span>Python</span><span>Signal Processing</span><span>ML</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications" class="publications-section">
+            <h2 class="section-title"><span class="title-accent">//</span> Publications</h2>
+            
+            <div class="publications-list">
+                <article class="pub-card">
+                    <div class="pub-venue">Intelligence, 2024</div>
+                    <h3><a href="https://doi.org/10.1016/j.intell.2024.101807" target="_blank">Functional brain networks involved in the Raven's standard progressive matrices task and their relation to theories of fluid intelligence</a></h3>
+                    <p class="pub-authors"><strong>Riley Zurrin</strong>, Samantha Wong, Meighen Roes, Chantal Percival, Mavis Kusi, Todd Woodward, Vina Goghari</p>
+                </article>
+
+                <article class="pub-card">
+                    <div class="pub-venue">Journal of Affective Disorders, 2022</div>
+                    <h3><a href="https://www.sciencedirect.com/science/article/pii/S0165032722008965" target="_blank">Altered Activity in Functional Brain Networks Involved in Lexical Decision Making in Bipolar Disorder: An fMRI Case-control Study</a></h3>
+                    <p class="pub-authors">Mavis Kusi, Samantha Wong, Chantal Percival, <strong>Riley Zurrin</strong>, Meighen Roes, Todd Woodward, Vina Goghari</p>
+                </article>
+            </div>
+
+            <a href="https://scholar.google.com/citations?user=xrNm528AAAAJ&hl=en" target="_blank" class="scholar-link">
+                <i class="fas fa-graduation-cap"></i> View on Google Scholar
+            </a>
+        </section>
+
+        <!-- Misc -->
+        <section class="misc-section">
+            <h2 class="section-title"><span class="title-accent">//</span> Beyond Code</h2>
+            <div class="misc-grid">
+                <a href="https://rjzurrin.wixsite.com/website-4" target="_blank" class="misc-item">
+                    <i class="fas fa-heart"></i>
+                    <span>Co-founded Compassion Services — raised $20k in scholarships, funded a well in Nepal</span>
+                </a>
+                <a href="https://youtu.be/5xamJAdlMwE" target="_blank" class="misc-item">
+                    <i class="fas fa-bicycle"></i>
+                    <span>Biked to Niagara Falls</span>
+                </a>
+                <a href="https://www.goodreads.com/user/show/43511113-riley-zurrin" target="_blank" class="misc-item">
+                    <i class="fas fa-book"></i>
+                    <span>Book reviews on Goodreads</span>
+                </a>
+                <a href="https://youtu.be/C8Dyh2Sic1U" target="_blank" class="misc-item">
+                    <i class="fas fa-wind"></i>
+                    <span>Kiteboarding in Mexico</span>
+                </a>
+            </div>
         </section>
     </main>
 
-	<footer>
-		<p>&copy; Riley Zurrin 2023; made with pure HTML and CSS; inspired by <a href="https://karpathy.ai/">Andrej Karpathy's site.</a></p>
-	</footer>
+    <footer>
+        <div class="footer-content">
+            <p>© Riley Zurrin 2024</p>
+            <p class="footer-note">Built with pure HTML & CSS. Inspired by <a href="https://karpathy.ai/">Andrej Karpathy</a>.</p>
+        </div>
+    </footer>
 </body>
 </html>

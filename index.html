@@ -4,6 +4,7 @@
     <title>Riley Zurrin | Data Engineer & Applied Physicist</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Data Engineer with M.Sc. Physics. Building production systems where standard playbooks fail.">
+    <meta name="theme-color" content="#0a0a0f">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,11 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="grain"></div>
-    
+    <div class="grain" aria-hidden="true"></div>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
     <header>
         <nav class="nav-container">
-            <div class="nav-logo">RZ</div>
+            <a href="/" class="nav-logo">RZ</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -23,9 +25,9 @@
                 <li><a href="#publications">Publications</a></li>
             </ul>
             <ul class="nav-social">
-                <li><a href="https://github.com/RileyZurrin" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/riley-zurrin/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="mailto:rjzurrin@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://github.com/RileyZurrin" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/riley-zurrin/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="mailto:rjzurrin@gmail.com" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -34,31 +36,31 @@
     <section class="hero">
         <div class="hero-content">
             <div class="hero-image-container">
-                <img src="img/Pic_Me.png" alt="Riley Zurrin" class="hero-image">
+                <img src="img/Pic_Me.png" alt="Riley Zurrin" class="hero-image" width="180" height="180">
             </div>
             <h1 class="hero-title">Riley Zurrin</h1>
-            <p class="hero-subtitle">Data Engineer <span class="separator">×</span> Applied Physicist</p>
+            <p class="hero-subtitle">Data Engineer <span class="separator" aria-hidden="true">×</span> Applied Physicist</p>
             <p class="hero-tagline">I build production systems where standard playbooks fail.</p>
         </div>
     </section>
 
-    <main>
+    <main id="main">
         <!-- Value Props -->
         <section id="about" class="value-props">
             <div class="value-card">
-                <div class="value-icon"><i class="fas fa-atom"></i></div>
+                <div class="value-icon"><i class="fas fa-atom" aria-hidden="true"></i></div>
                 <h3>Scientific Rigor</h3>
                 <p>M.Sc. in Physics (UofT) & Honours B.Sc. Math/Physics (UBC) with a <strong>4.0 GPA</strong>. I bring first-principles thinking to data architecture.</p>
             </div>
             <div class="value-card featured">
-                <div class="value-icon"><i class="fas fa-rocket"></i></div>
+                <div class="value-icon"><i class="fas fa-rocket" aria-hidden="true"></i></div>
                 <h3>Technical Founder</h3>
-                <p>Built and deployed <a href="https://getsyntropic.com/" target="_blank">Syntropic</a>, a production-grade Data Warehouse UI (React/FastAPI/AWS/Terraform) currently <strong>serving live traffic</strong> for a SaaS client.</p>
+                <p>Built and deployed <a href="https://getsyntropic.com/" target="_blank" rel="noopener noreferrer">Syntropic</a>, a production-grade Data Warehouse UI (React/FastAPI/AWS/Terraform) currently <strong>serving live traffic</strong> for a SaaS client.</p>
             </div>
             <div class="value-card">
-                <div class="value-icon"><i class="fas fa-flask"></i></div>
+                <div class="value-icon"><i class="fas fa-flask" aria-hidden="true"></i></div>
                 <h3>Research & Output</h3>
-                <p><a href="https://scholar.google.com/citations?hl=en&user=xrNm528AAAAJ" target="_blank">Published author</a> (fMRI statistical modeling) and <a href="https://www.kaggle.com/datasets/rileyzurrin/national-health-and-nutrition-exam-survey-2017-2018" target="_blank">Kaggle Silver Medalist</a>. I thrive in high-ambiguity, high-complexity environments.</p>
+                <p><a href="https://scholar.google.com/citations?hl=en&user=xrNm528AAAAJ" target="_blank" rel="noopener noreferrer">Published author</a> (fMRI statistical modeling) and <a href="https://www.kaggle.com/datasets/rileyzurrin/national-health-and-nutrition-exam-survey-2017-2018" target="_blank" rel="noopener noreferrer">Kaggle Silver Medalist</a>. I thrive in high-ambiguity, high-complexity environments.</p>
             </div>
         </section>
 
@@ -90,12 +92,12 @@
         <!-- Experience -->
         <section id="experience" class="experience-section">
             <h2 class="section-title"><span class="title-accent">//</span> Experience</h2>
-            
+
             <div class="experience-timeline">
                 <article class="exp-card">
                     <div class="exp-header">
                         <div class="exp-company">
-                            <img src="img/Dakota.png" alt="Dakota Analytics" class="company-logo">
+                            <img src="img/Dakota.png" alt="Dakota Analytics" class="company-logo" width="48" height="48">
                             <div>
                                 <h3>Data Engineer</h3>
                                 <span class="company-name">Dakota Analytics</span>
@@ -114,7 +116,7 @@
                 <article class="exp-card">
                     <div class="exp-header">
                         <div class="exp-company">
-                            <img src="img/BCCHR.png" alt="BC Children's Hospital" class="company-logo">
+                            <img src="img/BCCHR.png" alt="BC Children's Hospital" class="company-logo" width="48" height="48">
                             <div>
                                 <h3>Data Analyst / Researcher</h3>
                                 <span class="company-name">BC Children's Hospital</span>
@@ -124,18 +126,18 @@
                     </div>
                     <ul class="exp-highlights">
                         <li>Applied advanced statistical modeling and data manipulation to fMRI neuroimaging data</li>
-                        <li>Published <a href="https://scholar.google.com/citations?hl=en&user=xrNm528AAAAJ" target="_blank">two research papers</a> with <strong>40+ citations</strong></li>
+                        <li>Published <a href="https://scholar.google.com/citations?hl=en&user=xrNm528AAAAJ" target="_blank" rel="noopener noreferrer">two research papers</a> with <strong>40+ citations</strong></li>
                     </ul>
                     <div class="exp-images">
-                        <img src="img/Brain.png" alt="Brain network visualization">
-                        <img src="img/HDR.png" alt="Hemodynamic response analysis">
+                        <img src="img/Brain.png" alt="Brain network visualization" loading="lazy" width="150" height="100">
+                        <img src="img/HDR.png" alt="Hemodynamic response analysis" loading="lazy" width="150" height="100">
                     </div>
                 </article>
 
                 <article class="exp-card">
                     <div class="exp-header">
                         <div class="exp-company">
-                            <img src="img/UofT.png" alt="University of Toronto" class="company-logo">
+                            <img src="img/UofT.png" alt="University of Toronto" class="company-logo" width="48" height="48" loading="lazy">
                             <div>
                                 <h3>Data Analyst</h3>
                                 <span class="company-name">Balloon Astrophysics Group — UofT</span>
@@ -144,7 +146,7 @@
                         <span class="exp-date">May 2022 — Sep 2022</span>
                     </div>
                     <ul class="exp-highlights">
-                        <li>Configured telemetry data and analytics from <a href="https://en.wikipedia.org/wiki/Super-pressure_Balloon-borne_Imaging_Telescope" target="_blank">SuperBIT</a>, a NASA balloon-borne telescope</li>
+                        <li>Configured telemetry data and analytics from <a href="https://en.wikipedia.org/wiki/Super-pressure_Balloon-borne_Imaging_Telescope" target="_blank" rel="noopener noreferrer">SuperBIT</a>, a NASA balloon-borne telescope</li>
                         <li>Designed and built components to NASA standards at their facility in Texas</li>
                     </ul>
                 </article>
@@ -156,7 +158,7 @@
             <h2 class="section-title"><span class="title-accent">//</span> Education</h2>
             <div class="education-grid">
                 <div class="edu-card">
-                    <img src="img/UofT.png" alt="University of Toronto" class="edu-logo">
+                    <img src="img/UofT.png" alt="University of Toronto" class="edu-logo" width="60" height="60" loading="lazy">
                     <div class="edu-content">
                         <h3>M.Sc. Physics</h3>
                         <span class="edu-school">University of Toronto</span>
@@ -165,7 +167,7 @@
                     </div>
                 </div>
                 <div class="edu-card">
-                    <img src="img/UBC.jpg" alt="University of British Columbia" class="edu-logo">
+                    <img src="img/UBC.jpg" alt="University of British Columbia" class="edu-logo" width="60" height="60" loading="lazy">
                     <div class="edu-content">
                         <h3>Honours B.Sc. Mathematics & Physics</h3>
                         <span class="edu-school">University of British Columbia</span>
@@ -179,13 +181,13 @@
         <!-- Projects -->
         <section id="projects" class="projects-section">
             <h2 class="section-title"><span class="title-accent">//</span> Projects</h2>
-            
+
             <div class="projects-grid">
                 <article class="project-card featured-project">
                     <div class="project-header">
-                        <img src="img/phi.svg" alt="Syntropic" class="project-logo">
+                        <img src="img/phi.svg" alt="Syntropic" class="project-logo" width="40" height="40" loading="lazy">
                         <span class="project-tag live">🔴 LIVE</span>
-                        <h3><a href="https://getsyntropic.com/" target="_blank">Syntropic</a></h3>
+                        <h3><a href="https://getsyntropic.com/" target="_blank" rel="noopener noreferrer">Syntropic</a></h3>
                     </div>
                     <p>Production-grade Data Warehouse UI enabling business users to interact directly with data lakes. Serving live production traffic for a major SaaS platform.</p>
                     <div class="project-tech">
@@ -201,20 +203,20 @@
                 <article class="project-card">
                     <div class="project-header">
                         <span class="project-tag">🥈 KAGGLE SILVER</span>
-                        <h3><a href="https://healthstats.streamlit.app" target="_blank">HealthStats</a></h3>
+                        <h3><a href="https://healthstats.streamlit.app" target="_blank" rel="noopener noreferrer">HealthStats</a></h3>
                     </div>
                     <p>Web app for visualizing CDC health data. Full data pipeline from web scraping to interactive dashboards.</p>
                     <div class="project-tech">
                         <span>Streamlit</span><span>Selenium</span><span>BeautifulSoup</span>
                     </div>
                     <div class="project-meta">
-                        <span><i class="fas fa-download"></i> 1,400+ downloads</span>
+                        <span><i class="fas fa-download" aria-hidden="true"></i> 1,400+ downloads</span>
                     </div>
                 </article>
 
                 <article class="project-card">
                     <div class="project-header">
-                        <h3><a href="https://clebschgordan.com/" target="_blank">Clebsch-Gordan Calculator</a></h3>
+                        <h3><a href="https://clebschgordan.com/" target="_blank" rel="noopener noreferrer">Clebsch-Gordan Calculator</a></h3>
                     </div>
                     <p>Niche computational tool automating quantum mechanics algebra for physics researchers.</p>
                     <div class="project-tech">
@@ -224,7 +226,7 @@
 
                 <article class="project-card">
                     <div class="project-header">
-                        <h3><a href="https://github.com/RileyZurrin/NHL-Points-Predictor" target="_blank">NHL Points Predictor</a></h3>
+                        <h3><a href="https://github.com/RileyZurrin/NHL-Points-Predictor" target="_blank" rel="noopener noreferrer">NHL Points Predictor</a></h3>
                     </div>
                     <p>Predictive modeling for NHL player performance using mid-season statistics.</p>
                     <div class="project-tech">
@@ -234,7 +236,7 @@
 
                 <article class="project-card">
                     <div class="project-header">
-                        <h3><a href="https://github.com/UBCMint/MINT_NTX2020_OpenChallenge" target="_blank">EEG Brain-Computer Interface</a></h3>
+                        <h3><a href="https://github.com/UBCMint/MINT_NTX2020_OpenChallenge" target="_blank" rel="noopener noreferrer">EEG Brain-Computer Interface</a></h3>
                     </div>
                     <p>Signal processing for EEG acquisition system. Collaborated with UBC MINT on home automation via brain activity classification.</p>
                     <div class="project-tech">
@@ -247,23 +249,23 @@
         <!-- Publications -->
         <section id="publications" class="publications-section">
             <h2 class="section-title"><span class="title-accent">//</span> Publications</h2>
-            
+
             <div class="publications-list">
                 <article class="pub-card">
                     <div class="pub-venue">Intelligence, 2024</div>
-                    <h3><a href="https://doi.org/10.1016/j.intell.2024.101807" target="_blank">Functional brain networks involved in the Raven's standard progressive matrices task and their relation to theories of fluid intelligence</a></h3>
+                    <h3><a href="https://doi.org/10.1016/j.intell.2024.101807" target="_blank" rel="noopener noreferrer">Functional brain networks involved in the Raven's standard progressive matrices task and their relation to theories of fluid intelligence</a></h3>
                     <p class="pub-authors"><strong>Riley Zurrin</strong>, Samantha Wong, Meighen Roes, Chantal Percival, Mavis Kusi, Todd Woodward, Vina Goghari</p>
                 </article>
 
                 <article class="pub-card">
                     <div class="pub-venue">Journal of Affective Disorders, 2022</div>
-                    <h3><a href="https://www.sciencedirect.com/science/article/pii/S0165032722008965" target="_blank">Altered Activity in Functional Brain Networks Involved in Lexical Decision Making in Bipolar Disorder: An fMRI Case-control Study</a></h3>
+                    <h3><a href="https://www.sciencedirect.com/science/article/pii/S0165032722008965" target="_blank" rel="noopener noreferrer">Altered Activity in Functional Brain Networks Involved in Lexical Decision Making in Bipolar Disorder: An fMRI Case-control Study</a></h3>
                     <p class="pub-authors">Mavis Kusi, Samantha Wong, Chantal Percival, <strong>Riley Zurrin</strong>, Meighen Roes, Todd Woodward, Vina Goghari</p>
                 </article>
             </div>
 
-            <a href="https://scholar.google.com/citations?user=xrNm528AAAAJ&hl=en" target="_blank" class="scholar-link">
-                <i class="fas fa-graduation-cap"></i> View on Google Scholar
+            <a href="https://scholar.google.com/citations?user=xrNm528AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="scholar-link">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i> View on Google Scholar
             </a>
         </section>
 
@@ -271,20 +273,20 @@
         <section class="misc-section">
             <h2 class="section-title"><span class="title-accent">//</span> Beyond Code</h2>
             <div class="misc-grid">
-                <a href="https://rjzurrin.wixsite.com/website-4" target="_blank" class="misc-item">
-                    <i class="fas fa-heart"></i>
+                <a href="https://rjzurrin.wixsite.com/website-4" target="_blank" rel="noopener noreferrer" class="misc-item">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
                     <span>Co-founded Compassion Services — raised $20k in scholarships, funded a well in Nepal</span>
                 </a>
-                <a href="https://youtu.be/5xamJAdlMwE" target="_blank" class="misc-item">
-                    <i class="fas fa-bicycle"></i>
+                <a href="https://youtu.be/5xamJAdlMwE" target="_blank" rel="noopener noreferrer" class="misc-item">
+                    <i class="fas fa-bicycle" aria-hidden="true"></i>
                     <span>Biked to Niagara Falls</span>
                 </a>
-                <a href="https://www.goodreads.com/user/show/197214946-riley-zurrin" target="_blank" class="misc-item">
-                    <i class="fas fa-book"></i>
+                <a href="https://www.goodreads.com/user/show/197214946-riley-zurrin" target="_blank" rel="noopener noreferrer" class="misc-item">
+                    <i class="fas fa-book" aria-hidden="true"></i>
                     <span>Book reviews on Goodreads</span>
                 </a>
-                <a href="https://youtu.be/C8Dyh2Sic1U" target="_blank" class="misc-item">
-                    <i class="fas fa-wind"></i>
+                <a href="https://youtu.be/C8Dyh2Sic1U" target="_blank" rel="noopener noreferrer" class="misc-item">
+                    <i class="fas fa-wind" aria-hidden="true"></i>
                     <span>Kiteboarding in Mexico</span>
                 </a>
             </div>
@@ -293,7 +295,7 @@
 
     <footer>
         <div class="footer-content">
-            <p>© Riley Zurrin 2024</p>
+            <p>© Riley Zurrin <script>document.write(new Date().getFullYear())</script></p>
             <p class="footer-note">Built with pure HTML & CSS. Inspired by <a href="https://karpathy.ai/">Andrej Karpathy</a>.</p>
         </div>
     </footer>

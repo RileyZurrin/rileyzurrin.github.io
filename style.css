@@ -26,6 +26,7 @@
 
 html {
     scroll-behavior: smooth;
+    color-scheme: dark;
 }
 
 body {
@@ -61,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--accent);
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
 a:hover {
@@ -149,7 +150,7 @@ header {
     font-size: 1.2rem;
     padding: 0.5rem;
     border-radius: 8px;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .nav-social a:hover {
@@ -167,7 +168,7 @@ main {
 
 /* === Hero Section === */
 .hero {
-    min-height: 100vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,7 +260,7 @@ main {
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 2rem;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .value-card:hover {
@@ -348,7 +349,7 @@ main {
     padding: 0.4rem 0.75rem;
     font-size: 0.85rem;
     color: var(--text-secondary);
-    transition: all 0.2s ease;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 }
 
 .skill-tags span:hover {
@@ -373,7 +374,7 @@ main {
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 2rem;
-    transition: all 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .exp-card:hover {
@@ -446,6 +447,7 @@ main {
 
 .exp-images {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-top: 1.5rem;
     margin-left: 64px;
@@ -454,6 +456,7 @@ main {
 .exp-images img {
     height: 100px;
     width: auto;
+    max-width: 100%;
     border-radius: 8px;
     opacity: 0.9;
 }
@@ -477,7 +480,7 @@ main {
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 1.5rem;
-    transition: all 0.3s ease;
+    transition: border-color 0.3s ease;
 }
 
 .edu-card:hover {
@@ -538,7 +541,7 @@ main {
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 1.75rem;
-    transition: all 0.3s ease;
+    transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
@@ -680,7 +683,7 @@ main {
     border-left: 3px solid var(--accent);
     border-radius: 0 12px 12px 0;
     padding: 1.5rem;
-    transition: all 0.3s ease;
+    transition: border-color 0.3s ease;
 }
 
 .pub-card:hover {
@@ -729,7 +732,7 @@ main {
     background: var(--accent-dim);
     border: 1px solid var(--border-accent);
     border-radius: 8px;
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .scholar-link:hover {
@@ -758,7 +761,7 @@ main {
     border: 1px solid var(--border);
     border-radius: 12px;
     color: var(--text-secondary);
-    transition: all 0.2s ease;
+    transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 .misc-item:hover {
@@ -798,6 +801,58 @@ footer {
 
 .footer-note a {
     color: var(--text-secondary);
+}
+
+/* === Skip Link === */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 1rem;
+    z-index: 200;
+    padding: 0.75rem 1.25rem;
+    background: var(--accent);
+    color: var(--bg-primary);
+    border-radius: 0 0 8px 8px;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* === Focus Visible === */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* === Touch === */
+body {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* === Typography: text-wrap === */
+.section-title,
+.hero-title {
+    text-wrap: balance;
+}
+
+/* === Reduced Motion === */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }
 
 /* === Responsive === */
